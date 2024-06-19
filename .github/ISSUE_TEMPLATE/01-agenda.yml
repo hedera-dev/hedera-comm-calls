@@ -20,7 +20,7 @@ body:
     validations:
       required: true
     attributes:
-      label: What type of call is this?
+      label: "What type of call is this?"
       multiple: false
       options:
         - "Technical"
@@ -30,7 +30,7 @@ body:
     validations:
       required: true
     attributes:
-      label: "topics"
+      label: "Topics"
       description: "Details about the meeting"
       value: |
         * HIP-${HIP_NUMBER}: ${HIP_TITLE}
@@ -41,6 +41,27 @@ body:
           * ${HIP_PR_LINK}
         * Topic without a HIP 1
         * Topic without a HIP 2
+  - type: "textarea"
+    id: "todos"
+    validations:
+      required: true
+    attributes:
+      label: "TODOs"
+      description: "Checklist of tasks to complete for the community call"
+      value: |
+        - [ ] Create notes file + update table in main README
+        - [ ] URLs + QR codes for discord/ youtube/ twitter streams
+        - [ ] Tweet storm first post URL + QR code
+        - [ ] Full bio details for each of the speakers
+          - [ ] Name/ nickname
+          - [ ] Company
+          - [ ] Twitter/ LinkedIn/ Website
+          - [ ] Intro bullet points
+        - [ ] Identify dev community members for shout outs
+        - [ ] Prepare slide deck
+        - [ ] Slides for each of the presenters
+        - [ ] Announcement tweets
+        - [ ] Update notes file + update table in main README
   - type: "markdown"
     attributes:
       value: |
