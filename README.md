@@ -66,3 +66,4 @@ TODO livestreaming instructions.
 | # | Date | Type | Title | Agenda | Notes | Posts | Recording |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0001 | [20240626T230000Z](https://www.timeanddate.com/worldclock/converter.html?iso=20240626T230000&p1=1440&p2=137&p3=179&p4=136&p5=37&p6=776&p7=236&p8=240) | Technical | Hedera Tech Community Call, June 2024 | [agenda](https://github.com/hedera-dev/hedera-comm-calls/issues/1) | [notes](notes/0001.md) | [twitter](#TODO_LINK) | [youtube](#TODO_LINK) |
+| 0002 | [20240725T000000Z](https://www.timeanddate.com/worldclock/converter.html?iso=20240725T000000&p1=1440&p2=137&p3=179&p4=136&p5=37&p6=776&p7=176&p8=236&p9=240) | Technical | Hedera Tech Community Call, July 2024 | [agenda](https://github.com/hedera-dev/hedera-comm-calls/issues/2) | [notes](notes/0002.md) | [twitter](#TODO_LINK) | [youtube](#TODO_LINK) |
