@@ -17,7 +17,7 @@ and a recording of them will be shared the
 ### Agendas
 
 The agendas for calls are tracked in the Issues tab of this repository.
-To add an item to an agenda, simply add a comment to one of the agenda issues.
+To add an item to an existing agenda, simply add a comment to one of the agenda issues.
 
 Anyone is welcome to add an item to the agenda as long as it follows the following guidelines.
 
@@ -28,6 +28,17 @@ For technical community calls:
 For non-technical community calls:
 
 - TODO
+
+### New agenda process
+
+- Propose agenda as Github issue
+- Update `README.md` to add placeholder row to table "All Meetings"
+- Update Github issues to add details needed
+- Change status of Github issue from "proposed" to "confirmed"
+- Update `README.md` to replace placeholder with actual details in the "All Meetings" table
+- Hold the community call
+- Update the relevant `notes/*.md` file with details
+- Change status of Github issue from "confirmed" to "completed"
 
 ### Who Can Attend
 
@@ -49,7 +60,8 @@ For the non-technical community calls:
 
 TODO livestreaming instructions.
 
-## All Previous Meetings
+
+## All Meetings
 
 | # | Date | Type | Title | Agenda | Notes | Posts | Recording |
 | --- | --- | --- | --- | --- | --- | --- | --- |
